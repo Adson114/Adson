@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header th:fragment="header">
+    布局的head
+</header>
+<body th:replace="::content">
+    正文
+</body>
+<footer th:fragment="header">
+    布局的foot
+</footer>
+</body>
+</html>

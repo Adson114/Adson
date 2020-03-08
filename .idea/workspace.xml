@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cb2df7c-9d98-4347-818c-2e4c5e7c473e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectId" id="1YpKIudL0zc1L6a6kB7BHXgHSQE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="curd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.curd.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\二狗子\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cb2df7c-9d98-4347-818c-2e4c5e7c473e" name="Default Changelist" comment="" />
+      <created>1583634019000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583634019000</updated>
+      <workItem from="1583634022737" duration="5738000" />
+      <workItem from="1583647148766" duration="573000" />
+    </task>
+    <task id="LOCAL-00001" summary="spring boot curd 第一次提交">
+      <created>1583647459024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583647459024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="spring boot curd 第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot curd 第一次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583642629112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583642629112" />
+    <state x="0" y="115" key="CommitChangelistDialog2" timestamp="1583647456313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583647456313" />
+    <state x="260" y="264" key="FileChooserDialogImpl" timestamp="1583647745521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="260" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583647745521" />
+    <state width="1383" height="202" key="GridCell.Tab.0.bottom" timestamp="1583647118392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
+    <state width="1383" height="202" key="GridCell.Tab.0.center" timestamp="1583647118391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
+    <state width="1383" height="202" key="GridCell.Tab.0.left" timestamp="1583647118391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
+    <state width="1383" height="202" key="GridCell.Tab.0.right" timestamp="1583647118391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
+    <state width="1383" height="202" key="GridCell.Tab.1.bottom" timestamp="1583647118392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
+    <state width="1383" height="202" key="GridCell.Tab.1.center" timestamp="1583647118392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
+    <state width="1383" height="202" key="GridCell.Tab.1.left" timestamp="1583647118392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
+    <state width="1383" height="202" key="GridCell.Tab.1.right" timestamp="1583647118392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1383" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
+    <state x="96" y="147" key="SettingsEditor" timestamp="1583647738939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="96" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583647738939" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583647506761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583647506761" />
+    <state x="167" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583647149640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="167" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583647149640" />
+  </component>
+</project>
