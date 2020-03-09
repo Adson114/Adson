@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.curd.demo.dao.IUserDao">
+
+    <resultMap id="allInfo" type="com.curd.demo.pojo.User">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <association property="school" javaType="com.curd.demo.pojo.School">
+            <id column="id" property="id" jdbcType="INTEGER"/>
+            <result column="uid" property="uid" jdbcType="INTEGER"/>
+            <result column="schoolname" property="schoolname" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+
+    <select id="findAll" resultMap="allInfo">
+        select user.*,schoolname from user left join school on user.id=school.uid
+    </select>
+
+    <select id="get" resultMap="allInfo">
+        select user.*,schoolname from user left join school on user.id=school.uid where user.id=#{id}
+    </select>
+
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from user where id=#{id}
+    </delete>
+
+    <insert id="save" parameterType="com.curd.demo.pojo.User">
+        insert into user (name) values (#{name})
+    </insert>
+
+    <update id="update" parameterType="com.curd.demo.pojo.User">
+        update user set name=#{name} where id=#{id}
+    </update>
+
+
+</mapper>

@@ -1,7 +1,8 @@
 package com.curd.demo.controller;
 
-import com.curd.demo.mapper.UserMapper;
+import com.curd.demo.dao.IUserDao;
 import com.curd.demo.pojo.User;
+import com.curd.demo.service.IUserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,29 +16,29 @@ import java.util.List;
 @Controller
 public class UserController {
     @Autowired(required = false)
-     UserMapper userMapper;
+    private IUserService userService;
 
     @RequestMapping("/addUser")
     public String addUser(User user){
-        userMapper.save(user);
+        userService.save(user);
         return  "redirect:listUser";
     }
 
     @RequestMapping("/deleteUser")
     public String deleteUser(User user){
-        userMapper.delete(user.getId());
+        userService.delete(user.getId());
         return  "redirect:listUser";
     }
 
     @RequestMapping("/updateUser")
     public String updateUser(User user){
-        userMapper.update(user);
+        userService.update(user);
         return  "redirect:listUser";
     }
 
     @RequestMapping("/findUser")
     public String findUser(Integer id, Model model){
-        User user=userMapper.get(id);
+        User user= userService.get(id);
         model.addAttribute("user",user);
         return  "edituser";
     }
@@ -46,7 +47,7 @@ public class UserController {
     public String listUser(Model model, @RequestParam(value = "start",defaultValue = "0")Integer start,
                            @RequestParam(value = "size",defaultValue = "30")Integer size){
         PageHelper.startPage(start,size,"id asc");
-        List<User>userList=userMapper.findAll();
+        List<User>userList= userService.findAll();
         PageInfo<User>page=new PageInfo<>(userList);
         model.addAttribute("pages",page);
         return "listuser";

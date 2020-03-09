@@ -2,20 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb2df7c-9d98-4347-818c-2e4c5e7c473e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/curd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curd/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curd/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curd/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curd/demo/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/curd/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/curd/demo/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/curd/demo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/curd/demo/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/curd/demo/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/curd/demo/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/curd/demo/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/listuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listuser.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="thymeleaf@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="thymeleaf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="thymeleaf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="thymeleaf: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="thymeleaf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="thymeleaf: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,6 +94,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -55,8 +103,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3043478" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ideaworkspace\curd\src\main\java\com\curd\demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.curd.demo.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaworkspace\curd\src\main\resources\mapper" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -90,7 +152,10 @@
       <option name="presentableId" value="Default" />
       <updated>1583634019000</updated>
       <workItem from="1583634022737" duration="5738000" />
-      <workItem from="1583647148766" duration="573000" />
+      <workItem from="1583647148766" duration="2630000" />
+      <workItem from="1583667318925" duration="8000" />
+      <workItem from="1583727729864" duration="2145000" />
+      <workItem from="1583730086444" duration="5195000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot curd 第一次提交">
       <created>1583647459024</created>
@@ -99,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583647459024</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring boot curd 第二次SQL提交">
+      <created>1583648245130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583648245130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,64 +182,112 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="spring boot curd 第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot curd 第一次提交" />
+    <MESSAGE value="spring boot curd 第二次SQL提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot curd 第二次SQL提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583642629112">
+    <state x="793" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583649749570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583642629112" />
-    <state x="0" y="115" key="CommitChangelistDialog2" timestamp="1583647456313">
+    <state x="793" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583649749570" />
+    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583732883014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583647456313" />
-    <state x="260" y="264" key="FileChooserDialogImpl" timestamp="1583647745521">
+    <state x="292" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583732883014" />
+    <state x="358" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583732151368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583647745521" />
-    <state width="1383" height="202" key="GridCell.Tab.0.bottom" timestamp="1583647118392">
+    <state x="358" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583732151368" />
+    <state x="0" y="115" key="CommitChangelistDialog2" timestamp="1583648244352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
-    <state width="1383" height="202" key="GridCell.Tab.0.center" timestamp="1583647118391">
+    <state x="0" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583648244352" />
+    <state x="260" y="264" key="FileChooserDialogImpl" timestamp="1583732005365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
-    <state width="1383" height="202" key="GridCell.Tab.0.left" timestamp="1583647118391">
+    <state x="260" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583732005365" />
+    <state width="1486" height="202" key="GridCell.Tab.0.bottom" timestamp="1583736866060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
-    <state width="1383" height="202" key="GridCell.Tab.0.right" timestamp="1583647118391">
+    <state width="1486" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866060" />
+    <state width="1486" height="202" key="GridCell.Tab.0.center" timestamp="1583736866059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118391" />
-    <state width="1383" height="202" key="GridCell.Tab.1.bottom" timestamp="1583647118392">
+    <state width="1486" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866059" />
+    <state width="1486" height="202" key="GridCell.Tab.0.left" timestamp="1583736866059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
-    <state width="1383" height="202" key="GridCell.Tab.1.center" timestamp="1583647118392">
+    <state width="1486" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866059" />
+    <state width="1486" height="202" key="GridCell.Tab.0.right" timestamp="1583736866059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
-    <state width="1383" height="202" key="GridCell.Tab.1.left" timestamp="1583647118392">
+    <state width="1486" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866059" />
+    <state width="1486" height="202" key="GridCell.Tab.1.bottom" timestamp="1583736866060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
-    <state width="1383" height="202" key="GridCell.Tab.1.right" timestamp="1583647118392">
+    <state width="1486" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866060" />
+    <state width="1486" height="202" key="GridCell.Tab.1.center" timestamp="1583736866060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1383" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583647118392" />
-    <state x="96" y="147" key="SettingsEditor" timestamp="1583647738939">
+    <state width="1486" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866060" />
+    <state width="1486" height="202" key="GridCell.Tab.1.left" timestamp="1583736866060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="96" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583647738939" />
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583647506761">
+    <state width="1486" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866060" />
+    <state width="1486" height="202" key="GridCell.Tab.1.right" timestamp="1583736866060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583647506761" />
-    <state x="167" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583647149640">
+    <state width="1486" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583736866060" />
+    <state width="1486" height="190" key="GridCell.Tab.2.bottom" timestamp="1583736405463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="167" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583647149640" />
+    <state width="1486" height="190" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583736405463" />
+    <state width="1486" height="190" key="GridCell.Tab.2.center" timestamp="1583736405463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1486" height="190" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583736405463" />
+    <state width="1486" height="190" key="GridCell.Tab.2.left" timestamp="1583736405463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1486" height="190" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583736405463" />
+    <state width="1486" height="190" key="GridCell.Tab.2.right" timestamp="1583736405463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1486" height="190" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583736405463" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1583649344403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1583649344403" />
+    <state x="316" y="234" key="RollbackChangesDialog" timestamp="1583648218511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="316" y="234" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583648218511" />
+    <state x="96" y="147" key="SettingsEditor" timestamp="1583734001518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="96" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583734001518" />
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583648260657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583648260657" />
+    <state x="167" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583730086497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="167" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583730086497" />
+    <state x="681" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1583730725633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="283" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583730725633" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/curd/demo/controller/UserController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
